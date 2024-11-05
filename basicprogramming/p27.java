@@ -14,7 +14,7 @@ public class p27 {
             if(remainder < 10 ){
                 result = remainder + result;
             }else{
-                result = (char)('A' + (remainder -10)) + result;
+                result = (char)('A' + (remainder - 10)) + result;
             }
             n = n / 16;
         }
